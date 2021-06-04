@@ -211,12 +211,12 @@
             android:columnCount="2">
 
             <com.google.android.material.card.MaterialCardView
-                android:layout_height="wrap_content"
                 android:layout_width="@dimen/card_with"
+                android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
-                app:strokeColor="@color/color_primary"
-                android:padding="12dp"
                 android:layout_gravity="center"
+                android:padding="12dp"
+                app:strokeColor="@color/color_primary"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -228,50 +228,50 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:gravity="center_vertical"
                         android:layout_marginEnd="5dp"
+                        android:gravity="center_vertical"
                         android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:gravity="center"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:orientation="horizontal">
 
                             <View
                                 android:layout_width="15dp"
                                 android:layout_height="15dp"
-                                android:background="@color/yellow"/>
+                                android:background="@color/yellow" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textSize="@dimen/text_size"
                                 android:layout_marginStart="5dp"
+                                android:fontFamily="@string/regular"
                                 android:text="Confirm"
                                 android:textColor="@color/black"
-                                android:fontFamily="@string/regular"/>
+                                android:textSize="@dimen/text_size" />
                         </LinearLayout>
 
                         <TextView
                             android:id="@+id/totalConfirm"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="@dimen/title_size"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@string/bold"
                             android:text="411515155"
                             android:textColor="@color/black"
-                            android:layout_marginTop="7dp"
-                            android:fontFamily="@string/bold"/>
+                            android:textSize="@dimen/title_size" />
 
                         <TextView
                             android:id="@+id/todayConfirm"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="@dimen/text_size"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@string/regular"
                             android:text="( +57 )"
                             android:textColor="@color/black"
-                            android:layout_marginTop="7dp"
-                            android:fontFamily="@string/regular"/>
+                            android:textSize="@dimen/text_size" />
 
                     </LinearLayout>
                 </LinearLayout>
